@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    background-color: #fffbec;
+    font-family: "El Messiri", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0; 
+    overflow-x: hidden; /* Evita el scroll horizontal si hay contenido que sobresale */
+}
+
+/* Nav */
+.logoNav {
+    width: 140px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+header{
+    height: 90dvh; /* Ocupa toda la altura de la ventana */
+}
+
+nav {
+    background-color: #445b3c;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.main {
+    margin-top: 3.5em;
+    margin-bottom: 3.5em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.main .izquierda,
+.main .derecha {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.main .izquierda img {
+    max-width: 100%; /* La imagen no excede el ancho del contenedor */
+    height: auto; /* Mantiene la proporción */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para diseño */
+}
+
+.main .derecha h1 {
+    font-size: 2.5rem; 
+    color: #ad268d; 
+    margin: 0; 
+}
+
+.main .derecha p {
+    font-size: 1.5rem; 
+    color: #445b3c; 
+    text-align: center;
+}
+
+span{
+    font-size: 2rem;
+}
+ 
+img{
+    width: 40%;
+    height: auto;
+}
+
+hr {
+    width: 60%; 
+    border: none; 
+    border-top: 2px solid #445b3c; 
+    margin: 1rem auto;
+    border-radius: 10px;
+}
+
+.contiene{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contiene h2{
+    text-align: center;
+}
+
+.contiene p{
+    text-align: left;
+}
+
+li{
+    font-size: 1.2em;
+}
+
+.footer {
+    background-color: #445b3c;
+    color: #fbfbfb;
+    padding: 2rem 1rem;
+}
+
+.footer *::selection {
+    color: #262123;
+    background-color: #fbfbfb;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+}
+
+.footer-section h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.footer-section p,
+.footer-section a {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fbfbfb;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.footer-section a:hover {
+    color: #eaffe3;;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    border-top: 1px solid #fbfbfb;
+    margin-top: 1rem;
+    color: #fbfbfb;
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .main .derecha {
+        max-width: 100%;
+    }
+
+    .main .izquierda img {
+        width: 100%; 
+    }
+}

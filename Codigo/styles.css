@@ -1,0 +1,499 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+/* General: Evitar desplazamiento horizontal */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evita desplazamiento horizontal */
+    font-family: "Gentium Plus", serif;
+}
+
+.swiper-container {
+    width: 100%;
+    max-width: 100vw; /* Limitar el contenedor al ancho de la ventana */
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Altura ajustada al contenido */
+}
+
+.swiper-slide img {
+    width: 100%; /* Imagen ocupa todo el ancho del contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+    object-fit: cover; /* Asegurar que la imagen se ajuste correctamente */
+}
+
+/* General heading styles */
+h1, h2 {
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0;
+}
+
+/* General reset */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Gentium Plus", serif;
+    background-color: #efecdc; /* Color de fondo */
+}
+
+.eslogan{
+    font-size: 3.5em;
+}
+
+/* Font */
+.gentium-plus-regular {
+    font-family: "Gentium Plus", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gentium-plus-bold {
+    font-family: "Gentium Plus", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.gentium-plus-regular-italic {
+    font-family: "Gentium Plus", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.gentium-plus-bold-italic {
+    font-family: "Gentium Plus", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+* {
+    box-sizing: border-box; 
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background-color: #445b3c;
+}
+
+/* Body */
+body {
+    margin: 0;
+    background-color: #fffbec;
+    font-family: "El Messiri", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0; 
+    overflow-x: hidden; /* Evita el scroll horizontal si hay contenido que sobresale */
+}
+
+/* Header */
+header {
+    height: 100dvh;
+}
+
+/* Nav */
+.logoNav {
+    width: 140px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+nav {
+    background-color: #445b3c;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Evita el scroll horizontal si hay contenido que sobresale */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+/* Cards Container */
+.cards {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.cards2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    background: white;
+    padding: .4em;
+    border-radius: 6px;
+    -webkit-box-shadow: 3px 2px 22px 0px rgba(0,0,0,0.59);
+    -moz-box-shadow: 3px 2px 22px 0px rgba(0,0,0,0.59);
+    box-shadow: 3px 2px 22px 0px rgba(0,0,0,0.59);
+}
+  
+.card-image {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+  
+.card-image img{
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    object-fit: cover; 
+}
+
+.card-image:hover {
+    transform: scale(0.98);
+}
+  
+.nombre1 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #d22c5c;
+    padding-left: 10px;
+}
+  
+.nombre1:hover {
+    cursor: pointer;
+}
+
+.nombre2 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #ad268d;
+    padding-left: 10px;
+}
+  
+.nombre2:hover {
+    cursor: pointer;
+}
+
+.nombre3 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #117569;
+    padding-left: 10px;
+}
+  
+.nombre3:hover {
+    cursor: pointer;
+}
+
+.nombre4 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #08409b;
+    padding-left: 10px;
+}
+  
+.nombre4:hover {
+    cursor: pointer;
+}
+
+.nombre5 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #f83b77;
+    padding-left: 10px;
+}
+  
+.nombre5:hover {
+    cursor: pointer;
+}
+
+.nombre6 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #c4b856;
+    padding-left: 10px;
+}
+  
+.nombre6:hover {
+    cursor: pointer;
+}
+
+.nombre7 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #fa55a9;
+    padding-left: 10px;
+}
+  
+.nombre7:hover {
+    cursor: pointer;
+}
+
+.nombre8 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #7367bd;
+    padding-left: 10px;
+}
+  
+.nombre8:hover {
+    cursor: pointer;
+}
+  
+.heading {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    padding-left: 10px;
+}
+  
+.heading:hover {
+    cursor: pointer;
+}
+  
+.author {
+    color: gray;
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 20px;
+}
+  
+.name {
+    font-weight: 600;
+}
+  
+.name:hover {
+    cursor: pointer;
+}
+
+h2{
+    font-weight: 700;
+}
+
+/* Contenedor del slider */
+.swiper-container {
+    width: 100%;
+    height: 700px;
+    margin-top: 25px;
+}
+
+/* Estilos de las tarjetas */
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    opacity: 0.6; /* Hacer que las tarjetas laterales sean más transparentes */
+    transition: transform 0.3s, opacity 0.3s;
+
+}
+
+/* Tarjeta activa */
+.swiper-slide-active {
+    opacity: 1;
+    transform: scale(1); /* Escala normal para el slide central */
+}
+
+.swiper-slide img {
+    height: 75%;
+    width: auto;
+}
+
+.swiper-pagination {
+    bottom: 10px !important;
+    color: red;
+}
+
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.5em;
+}
+
+.mapa{
+    -webkit-box-shadow: 3px 2px 22px 0px rgba(0,0,0,0.59);
+    -moz-box-shadow: 3px 2px 22px 0px rgba(0,0,0,0.59);
+    box-shadow: 3px 2px 22px 0px rgba(0,0,0,0.59);
+}
+
+.footer {
+    background-color: #445b3c;
+    color: #fbfbfb;
+    padding: 2rem 1rem;
+}
+
+.footer *::selection {
+    color: #262123;
+    background-color: #fbfbfb;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+}
+
+.footer-section h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.footer-section p,
+.footer-section a {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fbfbfb;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.footer-section a:hover {
+    color: #eaffe3;;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    border-top: 1px solid #fbfbfb;
+    margin-top: 1rem;
+    color: #fbfbfb;
+}
+
+
+
+@media (max-width: 1024px) {
+    .cards {
+        gap: 30px;
+    }
+    .card {
+        width: 250px;
+    }
+    .swiper-container {
+        height: 500px;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 200px;
+    }
+    .logoNav {
+        width: 10%;
+    }
+    nav {
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .swiper-container {
+        height: 400px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    .logoNav {
+        width: 15%;
+    }
+    .swiper-container {
+        height: 300px;
+    }
+    .card {
+        width: 100%;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+}
